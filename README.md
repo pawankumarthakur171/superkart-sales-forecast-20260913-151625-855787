@@ -71,7 +71,7 @@ curl http://localhost:7860/
 - Cache key: `df483c976c40e0132ae0c799840a5d9ed28e0f663504f88230f63c1fa331de3c`
 - Training-data SHA256: `b12ec41668e69d71d64ca96f2be78a011087f2a9cac6aba6e5cc920544b21ab2`
 - Selected model: `CatBoost`
-- Reused on this run: `False`
+- Reused on this run: `True`
 
 ## Model performance
 The notebook compares the required regressors, tunes the strongest candidates, selects the final model, serializes the complete preprocessing + model pipeline, reloads it, and tests it on the held-out test set.
